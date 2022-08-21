@@ -1,9 +1,10 @@
 import './App.scss';
+import Conversation from './Conversation/Conversation';
 
 function App() {
   return (
     <div className="App">
-      <img src="chickenback-riding.jpg" className="App-chickens" alt="Chickens"/>
+      <Conversation></Conversation>
     </div>
   );
 }
