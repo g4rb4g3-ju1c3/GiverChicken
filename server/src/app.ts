@@ -22,12 +22,14 @@ const app: App = {
   path: {},
 };
 
+module.exports = app;
+
 // Restrict permissions to the current user only:
 //  Remember umask bits are opposite of chmod.  1 disables the permission and 0 allows it.
 process.umask(0o077);
 
-const c   = require("./constants")();
-const log = require("./log"      )(app);
+const c   = require("./constants");
+const log = require("./log"      );
 
 log.msg("Let's get chicken!!!");
 log.msg(`TIMESTAMP_FORMAT = ${c.app.TIMESTAMP_FORMAT}`);
