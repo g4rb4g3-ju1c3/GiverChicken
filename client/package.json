@@ -1,7 +1,21 @@
 {
-  "name": "giverchicken",
+  "name": "giverchicken-client",
   "version": "0.1.0",
+  "license": "AGPL-3.0-only",
   "private": true,
+  "description": "Chickens give'r to allow chatting with insanity",
+  "author": {
+    "name": "d0ugr",
+    "email": "doug@escm.ml",
+    "url": "https://dougr.ml"
+  },
+  "keywords": [
+    "giverchicken",
+    "giver",
+    "chicken",
+    "chickens",
+    "chat"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
