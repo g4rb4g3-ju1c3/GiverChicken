@@ -1,5 +1,8 @@
 .Conversation {
+  box-sizing: border-box;
   min-width: 40rem;
   height: 100%;
+  padding: 1rem;
   background: #445544;
+  opacity: .75;
 }
