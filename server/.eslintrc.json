@@ -5,11 +5,15 @@
     "es2021": true
   },
   "extends": "standard-with-typescript",
-  "overrides": [
-  ],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
   "rules": {
-  }
+    "quotes": 2,
+    "semi": [
+      "always"
+    ]
+  },
+  "overrides": [
+  ]
 }
